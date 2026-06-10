@@ -16,19 +16,11 @@ Requires: Python 3, numpy.
 | test_03_joint_admissibility.py | Two-Qubit Joint Admissibility + General Form (PPT, strict inclusion) | PASS |
 | test_04_correlation_without_influence.py | Correlation Without Influence Under Local CPTP Updating | PASS |
 | test_05_ordering_no_completion.py | Non-Total Ordering + Admissibility Entailment (no-completion at both levels) | PASS |
-
-## Planned (in dependency-graph priority order)
-
-- test_06: Finite-Dimensional Sequencing Without Retro-Addressability
-  (non-injective interface, NS1 violation of any retro map)
-- test_07: Coherence Basin Depth Functional (monotone descent under the
-  declared update family)
-- test_08: Connectivity Strictly Coarser Than Compatibility via Charge
-  Sectors (relations, components, measure weights)
-- test_09: Phase-Circle Envelope Ordering (acceptance windows, antipode
-  invariance lemma)
-- test_10: Apparent Late-Time Acceleration Without Dark Energy (clock-drift
-  reconstruction, sign and magnitude of the witness)
+| test_06_sequencing_no_retro.py | Finite-Dim Sequencing Without Retro-Addressability | PASS |
+| test_07_coherence_basin.py | Coherence Basin Depth Functional Contraction | PASS |
+| test_08_charge_sectors.py | Connectivity Strictly Coarser via Charge Sectors | PASS |
+| test_09_phase_circle.py | Phase-Circle Envelope Ordering (worked instance + non-closure regime) | PASS |
+| test_10_acceleration_reconstruction.py | Late-Time Acceleration Without Dark Energy (closed-form match + null control) | PASS |
 
 ## Conventions
 
