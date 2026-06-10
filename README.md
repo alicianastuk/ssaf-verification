@@ -1,0 +1,38 @@
+# SSAF Verification Suite
+
+Executable verification of the finite constructions in the SSAF paper's
+Appendix D. Every file `test_NN_*.py` encodes one toy's pass conditions as
+assertions; `python3 run_all.py` runs everything and exits nonzero on any
+failure.
+
+Requires: Python 3, numpy.
+
+## Coverage
+
+| File | Toy (Appendix D) | Status |
+|---|---|---|
+| test_01_threshold_shadow.py | Declared Compatibility as a Threshold Shadow of Graded Access | PASS |
+| test_02_ns1_safe_gksl.py | NS1-Safe Single-Qubit GKSL Semigroup | PASS |
+| test_03_joint_admissibility.py | Two-Qubit Joint Admissibility + General Form (PPT, strict inclusion) | PASS |
+| test_04_correlation_without_influence.py | Correlation Without Influence Under Local CPTP Updating | PASS |
+| test_05_ordering_no_completion.py | Non-Total Ordering + Admissibility Entailment (no-completion at both levels) | PASS |
+
+## Planned (in dependency-graph priority order)
+
+- test_06: Finite-Dimensional Sequencing Without Retro-Addressability
+  (non-injective interface, NS1 violation of any retro map)
+- test_07: Coherence Basin Depth Functional (monotone descent under the
+  declared update family)
+- test_08: Connectivity Strictly Coarser Than Compatibility via Charge
+  Sectors (relations, components, measure weights)
+- test_09: Phase-Circle Envelope Ordering (acceptance windows, antipode
+  invariance lemma)
+- test_10: Apparent Late-Time Acceleration Without Dark Energy (clock-drift
+  reconstruction, sign and magnitude of the witness)
+
+## Conventions
+
+- Each test header cites the toy and the formal results it checks.
+- Assertions mirror the paper's stated pass conditions; no test asserts
+  anything the paper does not claim.
+- Randomized checks use fixed seeds for reproducibility.
