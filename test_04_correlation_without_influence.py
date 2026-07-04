@@ -1,5 +1,5 @@
 """SSAF verification suite, file 4: Correlation Without Influence Under
-Local CPTP Updating (Appendix D; Lemma Correlation Without Influence,
+Local CPTP Updating (toy-model sections; Lemma Correlation Without Influence,
 Prop. no_steerable_marginals).
 
 Pass conditions verified:

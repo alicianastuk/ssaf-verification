@@ -1,5 +1,5 @@
 """SSAF verification suite, file 6: Finite-Dimensional Sequencing Without
-Retro-Addressability (Appendix D; non-addressability as non-invertibility).
+Retro-Addressability (toy-model sections; non-addressability as non-invertibility).
 
 Pass conditions verified:
   S1: the interface map I_E (complete dephasing in the E-fixed basis) is

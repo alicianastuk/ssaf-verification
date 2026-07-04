@@ -1,5 +1,5 @@
 """SSAF verification suite, file 10: Apparent Late-Time Acceleration
-Without a Dark-Energy Primitive (Appendix D; Eqs. a_tt_general,
+Without a Dark-Energy Primitive (toy-model sections; Eqs. a_tt_general,
 a_tt_linear_tau; reconstructed diagnostics H(t), q(t)).
 
 Pass conditions verified, mirroring the toy:

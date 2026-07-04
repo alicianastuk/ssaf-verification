@@ -1,7 +1,7 @@
 """SSAF verification suite, file 1: threshold-shadow grounding of Compat_E / Gamma_E.
 
 Verifies the two claims of the threshold-shadow working note against the
-charge-sector toy (SSAF Appendix D):
+charge-sector toy (SSAF toy-model sections):
 
   T1 (block case): for S_E = B(H+) (+) B(H-) and definite-sector states,
       g_E = 1 within a sector and g_E = 0 across sectors, so the threshold

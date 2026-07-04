@@ -1,5 +1,5 @@
 """SSAF verification suite, file 9: Phase-Circle Envelope Ordering
-(Appendix D; worked instance Delta_0 = pi/2, Delta_pi = pi/6, and the
+(toy-model sections; worked instance Delta_0 = pi/2, Delta_pi = pi/6, and the
 non-closure certification under a shrunk-window regime).
 
 Pass conditions verified:

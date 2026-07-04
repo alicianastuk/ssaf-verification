@@ -1,5 +1,5 @@
 """SSAF verification suite, file 7: Coherence Basin Depth Functional
-Contraction (Appendix D; Lemma depth_nonexpansion).
+Contraction (toy-model sections; Lemma depth_nonexpansion).
 
 Setup mirrored from the toy: core set M(E) = diagonal (dephasing-stable)
 states in the E-fixed basis; update family = dephasing semigroup with

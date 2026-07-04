@@ -1,15 +1,19 @@
 # SSAF Verification Suite
 
-Executable verification of the finite constructions in the SSAF paper's
-Appendix D. Every file `test_NN_*.py` encodes one toy's pass conditions as
+Executable verification of the finite toy constructions in the SSAF
+paper's toy-model sections. Every file `test_NN_*.py` encodes one toy's pass conditions as
 assertions; `python3 run_all.py` runs everything and exits nonzero on any
 failure.
 
 Requires: Python 3, numpy.
 
+Verified against: SSAF manuscript v1.0 (December 2025, revised July
+2026). Formal results are cited by label name in each test header, so
+references are stable under section renumbering.
+
 ## Coverage
 
-| File | Toy (Appendix D) | Status |
+| File | Toy | Status |
 |---|---|---|
 | test_01_threshold_shadow.py | Declared Compatibility as a Threshold Shadow of Graded Access | PASS |
 | test_02_ns1_safe_gksl.py | NS1-Safe Single-Qubit GKSL Semigroup | PASS |

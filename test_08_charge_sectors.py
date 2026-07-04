@@ -1,5 +1,5 @@
 """SSAF verification suite, file 8: Connectivity Strictly Coarser Than
-Compatibility via Charge Sectors (Appendix D; Props connectivity_strict
+Compatibility via Charge Sectors (toy-model sections; Props connectivity_strict
 and addressability_strict).
 
 Setup mirrored from the toy: H = H+ (+) H- (2+2), definite-charge

@@ -1,5 +1,5 @@
 """SSAF verification suite, file 5: Non-Total Ordering Without Dynamics +
-Admissibility Entailment at the quotient level (Appendix D ordering pair;
+Admissibility Entailment at the quotient level (toy-model sections ordering pair;
 Lemmas toy_no_completion and toy_no_completion_entailment).
 
 The toy's declared base constraints (Eq. toy_prereq_base):

@@ -1,5 +1,5 @@
 """SSAF verification suite, file 3: Two-Qubit Joint Admissibility Without
-Factorization + General Form (Appendix D merged toy; Lemma marginals-nondet,
+Factorization + General Form (toy-model sections merged toy; Lemma marginals-nondet,
 Corollary toy_ent_strict).
 
 Pass conditions verified:

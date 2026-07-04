@@ -1,5 +1,5 @@
 """SSAF verification suite, file 2: NS1-safe single-qubit GKSL semigroup
-(Appendix D, Toy: NS1-safe GKSL semigroup; Cor. NS1_GKSL_admissible).
+(toy-model sections, Toy: NS1-safe GKSL semigroup; Cor. NS1_GKSL_admissible).
 
 Pass conditions verified, mirroring the toy:
   G1: the fixed-E dephasing GKSL generator yields CPTP maps at all times
